@@ -1,4 +1,12 @@
 # -*- coding: utf-8 -*-
+"""
+
+Reference:
+
+    [1] Wang D, Cui P, Zhu W. Structural deep network embedding[C]//Proceedings of the 22nd ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2016: 1225-1234.(https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf)
+
+
+"""
 import torch
 from .basemodel import GraphBaseModel
 from ..utils import process_nxgraph
